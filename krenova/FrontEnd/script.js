@@ -2,10 +2,10 @@ let dataSoalSaatIni = null;
 let jawabanTerpilih = null;
 let isFetching = false;
 
-// Ganti URL ini dengan URL backend setelah di-deploy (misal: https://mathtrans.onrender.com)
+// URL backend yang sudah di-deploy ke Vercel
 const API_BASE_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
     ? 'http://localhost:3000'
-    : 'https://GANTI-DENGAN-URL-BACKENDMU.onrender.com';
+    : 'https://mathtrans-three.vercel.app';
 
 async function fetchSoalDariAI() {
     try {
