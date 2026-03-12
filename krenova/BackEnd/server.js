@@ -11,7 +11,7 @@ const corsOptions = {
         'http://localhost',
         'http://127.0.0.1',
         'http://localhost:3000',
-        'https://USERNAME.github.io'
+        'https://zufan-t.github.io'
     ],
 };
 app.use(cors(corsOptions));
