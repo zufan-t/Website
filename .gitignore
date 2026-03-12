@@ -1,0 +1,7 @@
+krenova/testing/
+
+krenova/BackEnd/.env
+krenova/BackEnd/node_modules/
+
+**/node_modules/
+**/.env
